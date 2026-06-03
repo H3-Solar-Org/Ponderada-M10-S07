@@ -1,7 +1,5 @@
 """Simple calculator module for CI/CD pipeline experiment."""
 
-VERY_LONG_CONSTANT = "esta constante tem uma linha propositalmente longa para causar falha no flake8 lint check variacao 8"
-
 
 def add(a, b):
     return a + b
