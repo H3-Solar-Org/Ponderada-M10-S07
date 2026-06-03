@@ -1,0 +1,37 @@
+run_id,commit_sha,commit_message,status,workflow_duration,job_name,job_duration,test_count,test_failures,test_duration,timestamp
+26888048382,31e8d24b,ci: setup inicial do projeto e pipeline CI/CD,success,115.0,Lint,34.0,49,0,0.198,2026-06-03T13:30:19Z
+26888048382,31e8d24b,ci: setup inicial do projeto e pipeline CI/CD,success,115.0,Test,38.0,49,0,0.198,2026-06-03T13:30:19Z
+26888048382,31e8d24b,ci: setup inicial do projeto e pipeline CI/CD,success,115.0,Collect Metrics,32.0,49,0,0.198,2026-06-03T13:30:19Z
+26888093412,6a227588,ci(variation-2): desabilitar cache de pip para medir impacto,success,116.0,Lint,31.0,49,0,0.228,2026-06-03T13:31:05Z
+26888093412,6a227588,ci(variation-2): desabilitar cache de pip para medir impacto,success,116.0,Test,31.0,49,0,0.228,2026-06-03T13:31:05Z
+26888093412,6a227588,ci(variation-2): desabilitar cache de pip para medir impacto,success,116.0,Collect Metrics,32.0,49,0,0.228,2026-06-03T13:31:05Z
+26888106209,8ee19b27,test(variation-3): introduzir assertion errada para forçar falha,failure,122.0,Lint,33.0,49,1,0.201,2026-06-03T13:31:19Z
+26888106209,8ee19b27,test(variation-3): introduzir assertion errada para forçar falha,failure,122.0,Test,31.0,49,1,0.201,2026-06-03T13:31:19Z
+26888106209,8ee19b27,test(variation-3): introduzir assertion errada para forçar falha,failure,122.0,Collect Metrics,32.0,49,1,0.201,2026-06-03T13:31:19Z
+26888118579,2656971a,test(variation-4): corrigir assertion errada introduzida em #3,success,143.0,Lint,35.0,49,0,0.277,2026-06-03T13:31:32Z
+26888118579,2656971a,test(variation-4): corrigir assertion errada introduzida em #3,success,143.0,Test,36.0,49,0,0.277,2026-06-03T13:31:32Z
+26888118579,2656971a,test(variation-4): corrigir assertion errada introduzida em #3,success,143.0,Collect Metrics,33.0,49,0,0.277,2026-06-03T13:31:32Z
+26888138426,61875336,test(variation-5): adicionar 50 testes parametrizados para medir impacto,success,124.0,Lint,30.0,99,0,0.389,2026-06-03T13:31:54Z
+26888138426,61875336,test(variation-5): adicionar 50 testes parametrizados para medir impacto,success,124.0,Test,30.0,99,0,0.389,2026-06-03T13:31:54Z
+26888138426,61875336,test(variation-5): adicionar 50 testes parametrizados para medir impacto,success,124.0,Collect Metrics,35.0,99,0,0.389,2026-06-03T13:31:54Z
+26888149924,3c89b3f4,test(variation-6): introduzir teste lento com sleep(10) para medir impacto,success,163.0,Lint,34.0,100,0,10.318,2026-06-03T13:32:06Z
+26888149924,3c89b3f4,test(variation-6): introduzir teste lento com sleep(10) para medir impacto,success,163.0,Test,39.0,100,0,10.318,2026-06-03T13:32:06Z
+26888149924,3c89b3f4,test(variation-6): introduzir teste lento com sleep(10) para medir impacto,success,163.0,Collect Metrics,33.0,100,0,10.318,2026-06-03T13:32:06Z
+26888156613,e5496e03,test(variation-7): remover teste lento e restaurar velocidade normal,success,156.0,Lint,29.0,99,0,0.252,2026-06-03T13:32:14Z
+26888156613,e5496e03,test(variation-7): remover teste lento e restaurar velocidade normal,success,156.0,Test,36.0,99,0,0.252,2026-06-03T13:32:14Z
+26888156613,e5496e03,test(variation-7): remover teste lento e restaurar velocidade normal,success,156.0,Collect Metrics,36.0,99,0,0.252,2026-06-03T13:32:14Z
+26888175059,242d0148,src(variation-8): introduzir linha longa para forçar falha de lint,failure,119.0,Lint,30.0,0,0,0.0,2026-06-03T13:32:33Z
+26888175059,242d0148,src(variation-8): introduzir linha longa para forçar falha de lint,failure,119.0,Collect Metrics,35.0,0,0,0.0,2026-06-03T13:32:33Z
+26888175059,242d0148,src(variation-8): introduzir linha longa para forçar falha de lint,failure,119.0,Test,0.0,0,0,0.0,2026-06-03T13:32:33Z
+26888185470,bf960dca,src(variation-9): corrigir violação de lint introduzida em #8,success,146.0,Lint,29.0,99,0,0.297,2026-06-03T13:32:43Z
+26888185470,bf960dca,src(variation-9): corrigir violação de lint introduzida em #8,success,146.0,Test,31.0,99,0,0.297,2026-06-03T13:32:43Z
+26888185470,bf960dca,src(variation-9): corrigir violação de lint introduzida em #8,success,146.0,Collect Metrics,34.0,99,0,0.297,2026-06-03T13:32:43Z
+26888203612,9208a279,ci(variation-10): jobs lint e test em paralelo para medir ganho,success,121.0,Lint,32.0,99,0,0.291,2026-06-03T13:33:03Z
+26888203612,9208a279,ci(variation-10): jobs lint e test em paralelo para medir ganho,success,121.0,Test,31.0,99,0,0.291,2026-06-03T13:33:03Z
+26888203612,9208a279,ci(variation-10): jobs lint e test em paralelo para medir ganho,success,121.0,Collect Metrics,31.0,99,0,0.291,2026-06-03T13:33:03Z
+26888215285,613e97fa,ci(variation-11): restaurar execução sequencial lint → test,success,146.0,Lint,31.0,99,0,0.264,2026-06-03T13:33:15Z
+26888215285,613e97fa,ci(variation-11): restaurar execução sequencial lint → test,success,146.0,Test,34.0,99,0,0.264,2026-06-03T13:33:15Z
+26888215285,613e97fa,ci(variation-11): restaurar execução sequencial lint → test,success,146.0,Collect Metrics,32.0,99,0,0.264,2026-06-03T13:33:15Z
+26888235325,f98b884f,ci(variation-12): reativar cache de pip para medir cache hit real,success,144.0,Lint,34.0,99,0,0.293,2026-06-03T13:33:36Z
+26888235325,f98b884f,ci(variation-12): reativar cache de pip para medir cache hit real,success,144.0,Test,33.0,99,0,0.293,2026-06-03T13:33:36Z
+26888235325,f98b884f,ci(variation-12): reativar cache de pip para medir cache hit real,success,144.0,Collect Metrics,33.0,99,0,0.293,2026-06-03T13:33:36Z
