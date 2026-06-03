@@ -1,37 +1,37 @@
-run_id,commit_sha,commit_message,status,workflow_duration,job_name,job_duration,test_count,test_failures,test_duration,timestamp
-26891388441,fef64292,ci: replay #1 - baseline com cache ON e 49 testes,success,110.0,Lint,32.0,49,0,0.168,2026-06-03T14:27:10Z
-26891388441,fef64292,ci: replay #1 - baseline com cache ON e 49 testes,success,110.0,Test,32.0,49,0,0.168,2026-06-03T14:27:10Z
-26891388441,fef64292,ci: replay #1 - baseline com cache ON e 49 testes,success,110.0,Collect Metrics,32.0,49,0,0.168,2026-06-03T14:27:10Z
-26891403962,77182462,ci: replay #2 - desativar cache de pip para medir impacto,success,125.0,Lint,30.0,49,0,0.187,2026-06-03T14:27:25Z
-26891403962,77182462,ci: replay #2 - desativar cache de pip para medir impacto,success,125.0,Test,41.0,49,0,0.187,2026-06-03T14:27:25Z
-26891403962,77182462,ci: replay #2 - desativar cache de pip para medir impacto,success,125.0,Collect Metrics,42.0,49,0,0.187,2026-06-03T14:27:25Z
-26891424211,775ac1ea,test: replay #3 - assertion errada para forçar falha de teste,failure,101.0,Lint,29.0,49,1,0.183,2026-06-03T14:27:45Z
-26891424211,775ac1ea,test: replay #3 - assertion errada para forçar falha de teste,failure,101.0,Test,30.0,49,1,0.183,2026-06-03T14:27:45Z
-26891424211,775ac1ea,test: replay #3 - assertion errada para forçar falha de teste,failure,101.0,Collect Metrics,30.0,49,1,0.183,2026-06-03T14:27:45Z
-26891442771,d2ce249e,test: replay #4 - corrigir assertion e reativar cache,success,106.0,Lint,28.0,49,0,0.176,2026-06-03T14:28:03Z
-26891442771,d2ce249e,test: replay #4 - corrigir assertion e reativar cache,success,106.0,Test,34.0,49,0,0.176,2026-06-03T14:28:03Z
-26891442771,d2ce249e,test: replay #4 - corrigir assertion e reativar cache,success,106.0,Collect Metrics,30.0,49,0,0.176,2026-06-03T14:28:03Z
-26891473415,a5146135,test: replay #5 - adicionar 50 testes parametrizados (99 total),success,106.0,Lint,30.0,99,0,0.245,2026-06-03T14:28:34Z
-26891473415,a5146135,test: replay #5 - adicionar 50 testes parametrizados (99 total),success,106.0,Test,32.0,99,0,0.245,2026-06-03T14:28:34Z
-26891473415,a5146135,test: replay #5 - adicionar 50 testes parametrizados (99 total),success,106.0,Collect Metrics,32.0,99,0,0.245,2026-06-03T14:28:34Z
-26891494904,362dbdce,test: replay #6 - introduzir teste lento com sleep(10),success,113.0,Lint,27.0,100,0,10.255,2026-06-03T14:28:55Z
-26891494904,362dbdce,test: replay #6 - introduzir teste lento com sleep(10),success,113.0,Test,41.0,100,0,10.255,2026-06-03T14:28:55Z
-26891494904,362dbdce,test: replay #6 - introduzir teste lento com sleep(10),success,113.0,Collect Metrics,32.0,100,0,10.255,2026-06-03T14:28:55Z
-26891500420,dcdd7772,test: replay #7 - remover teste lento e restaurar velocidade,success,108.0,Lint,35.0,99,0,0.247,2026-06-03T14:29:01Z
-26891500420,dcdd7772,test: replay #7 - remover teste lento e restaurar velocidade,success,108.0,Test,28.0,99,0,0.247,2026-06-03T14:29:01Z
-26891500420,dcdd7772,test: replay #7 - remover teste lento e restaurar velocidade,success,108.0,Collect Metrics,32.0,99,0,0.247,2026-06-03T14:29:01Z
-26891525072,92fb7056,src: replay #8 - linha longa para forçar falha de lint,failure,67.0,Lint,29.0,0,0,0.0,2026-06-03T14:29:27Z
-26891525072,92fb7056,src: replay #8 - linha longa para forçar falha de lint,failure,67.0,Collect Metrics,30.0,0,0,0.0,2026-06-03T14:29:27Z
-26891525072,92fb7056,src: replay #8 - linha longa para forçar falha de lint,failure,67.0,Test,-1.0,0,0,0.0,2026-06-03T14:29:27Z
-26891538406,aa47bd24,src: replay #9 - corrigir violação de lint introduzida em #8,success,100.0,Lint,28.0,99,0,0.267,2026-06-03T14:29:40Z
-26891538406,aa47bd24,src: replay #9 - corrigir violação de lint introduzida em #8,success,100.0,Test,30.0,99,0,0.267,2026-06-03T14:29:40Z
-26891538406,aa47bd24,src: replay #9 - corrigir violação de lint introduzida em #8,success,100.0,Collect Metrics,29.0,99,0,0.267,2026-06-03T14:29:40Z
-26891560443,38febb19,ci: replay #10 - jobs lint e test em paralelo,success,76.0,Lint,28.0,99,0,0.263,2026-06-03T14:30:03Z
-26891560443,38febb19,ci: replay #10 - jobs lint e test em paralelo,success,76.0,Test,36.0,99,0,0.263,2026-06-03T14:30:03Z
-26891560443,38febb19,ci: replay #10 - jobs lint e test em paralelo,success,76.0,Collect Metrics,31.0,99,0,0.263,2026-06-03T14:30:03Z
-26891579615,6bc04bfb,ci: replay #11 - restaurar execução sequencial lint → test,success,105.0,Lint,26.0,99,0,0.301,2026-06-03T14:30:20Z
-26891579615,6bc04bfb,ci: replay #11 - restaurar execução sequencial lint → test,success,105.0,Test,36.0,99,0,0.301,2026-06-03T14:30:20Z
-26891579615,6bc04bfb,ci: replay #11 - restaurar execução sequencial lint → test,success,105.0,Collect Metrics,30.0,99,0,0.301,2026-06-03T14:30:20Z
-26891603404,488ff0fc,ci: replay #12 - cache pip ativo com hit real esperado,success,97.0,Lint,28.0,99,0,0.193,2026-06-03T14:30:42Z
-26891603404,488ff0fc,ci: replay #12 - cache pip ativo com hit real esperado,success,97.0,Test,28.0,99,0,0.193,2026-06-03T14:30:42Z
-26891603404,488ff0fc,ci: replay #12 - cache pip ativo com hit real esperado,success,97.0,Collect Metrics,29.0,99,0,0.193,2026-06-03T14:30:42Z
+run_id,commit_sha,commit_message,status,workflow_duration,job_name,job_duration,test_count,test_failures,test_duration,timestamp,test_avg_duration
+26891388441,fef64292,ci: replay #1 - baseline com cache ON e 49 testes,success,110.0,Lint,32.0,49,0,0.168,2026-06-03T14:27:10Z,0.0034
+26891388441,fef64292,ci: replay #1 - baseline com cache ON e 49 testes,success,110.0,Test,32.0,49,0,0.168,2026-06-03T14:27:10Z,0.0034
+26891388441,fef64292,ci: replay #1 - baseline com cache ON e 49 testes,success,110.0,Collect Metrics,32.0,49,0,0.168,2026-06-03T14:27:10Z,0.0034
+26891403962,77182462,ci: replay #2 - desativar cache de pip para medir impacto,success,125.0,Lint,30.0,49,0,0.187,2026-06-03T14:27:25Z,0.0038
+26891403962,77182462,ci: replay #2 - desativar cache de pip para medir impacto,success,125.0,Test,41.0,49,0,0.187,2026-06-03T14:27:25Z,0.0038
+26891403962,77182462,ci: replay #2 - desativar cache de pip para medir impacto,success,125.0,Collect Metrics,42.0,49,0,0.187,2026-06-03T14:27:25Z,0.0038
+26891424211,775ac1ea,test: replay #3 - assertion errada para forçar falha de teste,failure,101.0,Lint,29.0,49,1,0.183,2026-06-03T14:27:45Z,0.0037
+26891424211,775ac1ea,test: replay #3 - assertion errada para forçar falha de teste,failure,101.0,Test,30.0,49,1,0.183,2026-06-03T14:27:45Z,0.0037
+26891424211,775ac1ea,test: replay #3 - assertion errada para forçar falha de teste,failure,101.0,Collect Metrics,30.0,49,1,0.183,2026-06-03T14:27:45Z,0.0037
+26891442771,d2ce249e,test: replay #4 - corrigir assertion e reativar cache,success,106.0,Lint,28.0,49,0,0.176,2026-06-03T14:28:03Z,0.0036
+26891442771,d2ce249e,test: replay #4 - corrigir assertion e reativar cache,success,106.0,Test,34.0,49,0,0.176,2026-06-03T14:28:03Z,0.0036
+26891442771,d2ce249e,test: replay #4 - corrigir assertion e reativar cache,success,106.0,Collect Metrics,30.0,49,0,0.176,2026-06-03T14:28:03Z,0.0036
+26891473415,a5146135,test: replay #5 - adicionar 50 testes parametrizados (99 total),success,106.0,Lint,30.0,99,0,0.245,2026-06-03T14:28:34Z,0.0025
+26891473415,a5146135,test: replay #5 - adicionar 50 testes parametrizados (99 total),success,106.0,Test,32.0,99,0,0.245,2026-06-03T14:28:34Z,0.0025
+26891473415,a5146135,test: replay #5 - adicionar 50 testes parametrizados (99 total),success,106.0,Collect Metrics,32.0,99,0,0.245,2026-06-03T14:28:34Z,0.0025
+26891494904,362dbdce,test: replay #6 - introduzir teste lento com sleep(10),success,113.0,Lint,27.0,100,0,10.255,2026-06-03T14:28:55Z,0.1026
+26891494904,362dbdce,test: replay #6 - introduzir teste lento com sleep(10),success,113.0,Test,41.0,100,0,10.255,2026-06-03T14:28:55Z,0.1026
+26891494904,362dbdce,test: replay #6 - introduzir teste lento com sleep(10),success,113.0,Collect Metrics,32.0,100,0,10.255,2026-06-03T14:28:55Z,0.1026
+26891500420,dcdd7772,test: replay #7 - remover teste lento e restaurar velocidade,success,108.0,Lint,35.0,99,0,0.247,2026-06-03T14:29:01Z,0.0025
+26891500420,dcdd7772,test: replay #7 - remover teste lento e restaurar velocidade,success,108.0,Test,28.0,99,0,0.247,2026-06-03T14:29:01Z,0.0025
+26891500420,dcdd7772,test: replay #7 - remover teste lento e restaurar velocidade,success,108.0,Collect Metrics,32.0,99,0,0.247,2026-06-03T14:29:01Z,0.0025
+26891525072,92fb7056,src: replay #8 - linha longa para forçar falha de lint,failure,67.0,Lint,29.0,0,0,0.0,2026-06-03T14:29:27Z,0.0
+26891525072,92fb7056,src: replay #8 - linha longa para forçar falha de lint,failure,67.0,Collect Metrics,30.0,0,0,0.0,2026-06-03T14:29:27Z,0.0
+26891525072,92fb7056,src: replay #8 - linha longa para forçar falha de lint,failure,67.0,Test,-1.0,0,0,0.0,2026-06-03T14:29:27Z,0.0
+26891538406,aa47bd24,src: replay #9 - corrigir violação de lint introduzida em #8,success,100.0,Lint,28.0,99,0,0.267,2026-06-03T14:29:40Z,0.0027
+26891538406,aa47bd24,src: replay #9 - corrigir violação de lint introduzida em #8,success,100.0,Test,30.0,99,0,0.267,2026-06-03T14:29:40Z,0.0027
+26891538406,aa47bd24,src: replay #9 - corrigir violação de lint introduzida em #8,success,100.0,Collect Metrics,29.0,99,0,0.267,2026-06-03T14:29:40Z,0.0027
+26891560443,38febb19,ci: replay #10 - jobs lint e test em paralelo,success,76.0,Lint,28.0,99,0,0.263,2026-06-03T14:30:03Z,0.0027
+26891560443,38febb19,ci: replay #10 - jobs lint e test em paralelo,success,76.0,Test,36.0,99,0,0.263,2026-06-03T14:30:03Z,0.0027
+26891560443,38febb19,ci: replay #10 - jobs lint e test em paralelo,success,76.0,Collect Metrics,31.0,99,0,0.263,2026-06-03T14:30:03Z,0.0027
+26891579615,6bc04bfb,ci: replay #11 - restaurar execução sequencial lint → test,success,105.0,Lint,26.0,99,0,0.301,2026-06-03T14:30:20Z,0.003
+26891579615,6bc04bfb,ci: replay #11 - restaurar execução sequencial lint → test,success,105.0,Test,36.0,99,0,0.301,2026-06-03T14:30:20Z,0.003
+26891579615,6bc04bfb,ci: replay #11 - restaurar execução sequencial lint → test,success,105.0,Collect Metrics,30.0,99,0,0.301,2026-06-03T14:30:20Z,0.003
+26891603404,488ff0fc,ci: replay #12 - cache pip ativo com hit real esperado,success,97.0,Lint,28.0,99,0,0.193,2026-06-03T14:30:42Z,0.0019
+26891603404,488ff0fc,ci: replay #12 - cache pip ativo com hit real esperado,success,97.0,Test,28.0,99,0,0.193,2026-06-03T14:30:42Z,0.0019
+26891603404,488ff0fc,ci: replay #12 - cache pip ativo com hit real esperado,success,97.0,Collect Metrics,29.0,99,0,0.193,2026-06-03T14:30:42Z,0.0019
