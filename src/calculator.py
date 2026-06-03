@@ -1,7 +1,5 @@
 """Simple calculator module for CI/CD pipeline experiment."""
 
-LINHA_MUITO_LONGA_PARA_REPROVAR_NO_LINT = "esta string é propositalmente longa para causar falha no flake8 — replay variacao 8"
-
 
 def add(a, b):
     return a + b
