@@ -2,9 +2,9 @@
 
 **Aluno:** Vinicius Ibiapina  
 **Módulo:** M10 — Sprint 07  
-**Repositório:** https://github.com/H3-Solar-Org/Ponderada-M10-S07  
+**Repositório:** https://github.com/Viniciusibin/Ponderada-M10-S07  
 **Pipeline:** [.github/workflows/ci.yml](.github/workflows/ci.yml)  
-**Execuções:** https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions
+**Execuções:** https://github.com/Viniciusibin/Ponderada-M10-S07/actions
 
 ---
 
@@ -38,18 +38,18 @@ Projeto Python com uma calculadora (`src/calculator.py`) com 15 funções matem�
 
 | # | Run ID | Commit | Mensagem | Status | Duração (s) |
 |---|--------|--------|----------|--------|-------------|
-| 1 | [26888048382](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888048382) | `31e8d24` | ci: setup inicial — cache ON, 49 testes | ✅ success | 115 |
-| 2 | [26888093412](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888093412) | `6a22758` | ci(variation-2): cache OFF | ✅ success | 116 |
-| 3 | [26888106209](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888106209) | `8ee19b2` | test(variation-3): assertion errada | ❌ failure | 122 |
-| 4 | [26888118579](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888118579) | `2656971` | test(variation-4): correção do teste | ✅ success | 143 |
-| 5 | [26888138426](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888138426) | `6187533` | test(variation-5): +50 testes (99 total) | ✅ success | 124 |
-| 6 | [26888149924](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888149924) | `3c89b3f` | test(variation-6): sleep(10) em 1 teste | ✅ success | 163 |
-| 7 | [26888156613](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888156613) | `e5496e0` | test(variation-7): remove teste lento | ✅ success | 156 |
-| 8 | [26888175059](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888175059) | `242d014` | src(variation-8): linha longa — lint fail | ❌ failure | 119 |
-| 9 | [26888185470](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888185470) | `bf960dc` | src(variation-9): correção do lint | ✅ success | 146 |
-| 10 | [26888203612](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888203612) | `9208a27` | ci(variation-10): jobs em **paralelo** | ✅ success | 121 |
-| 11 | [26888215285](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888215285) | `613e97f` | ci(variation-11): jobs **sequenciais** | ✅ success | 146 |
-| 12 | [26888235325](https://github.com/H3-Solar-Org/Ponderada-M10-S07/actions/runs/26888235325) | `f98b884` | ci(variation-12): cache ON (hit real) | ✅ success | 144 |
+| 1 | [26888048382](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888048382) | `31e8d24` | ci: setup inicial — cache ON, 49 testes | ✅ success | 115 |
+| 2 | [26888093412](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888093412) | `6a22758` | ci(variation-2): cache OFF | ✅ success | 116 |
+| 3 | [26888106209](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888106209) | `8ee19b2` | test(variation-3): assertion errada | ❌ failure | 122 |
+| 4 | [26888118579](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888118579) | `2656971` | test(variation-4): correção do teste | ✅ success | 143 |
+| 5 | [26888138426](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888138426) | `6187533` | test(variation-5): +50 testes (99 total) | ✅ success | 124 |
+| 6 | [26888149924](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888149924) | `3c89b3f` | test(variation-6): sleep(10) em 1 teste | ✅ success | 163 |
+| 7 | [26888156613](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888156613) | `e5496e0` | test(variation-7): remove teste lento | ✅ success | 156 |
+| 8 | [26888175059](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888175059) | `242d014` | src(variation-8): linha longa — lint fail | ❌ failure | 119 |
+| 9 | [26888185470](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888185470) | `bf960dc` | src(variation-9): correção do lint | ✅ success | 146 |
+| 10 | [26888203612](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888203612) | `9208a27` | ci(variation-10): jobs em **paralelo** | ✅ success | 121 |
+| 11 | [26888215285](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888215285) | `613e97f` | ci(variation-11): jobs **sequenciais** | ✅ success | 146 |
+| 12 | [26888235325](https://github.com/Viniciusibin/Ponderada-M10-S07/actions/runs/26888235325) | `f98b884` | ci(variation-12): cache ON (hit real) | ✅ success | 144 |
 
 ---
 
